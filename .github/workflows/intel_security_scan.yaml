@@ -11,4 +11,7 @@ jobs:
   Call-Workflow:
     uses: sfblackl-intel/testing/.github/workflows/intel_scan.yaml@main
     permissions:
+      contents: read
+      packages: read
+      actions: read
       security-events: write
