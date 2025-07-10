@@ -34,9 +34,9 @@ jobs:
           disable-default-queries: true
           queries:
             - uses: security-extended
-          query-filters:
-            - exclude:
-                id: actions/unpinned-tag
+#          query-filters:
+#            - exclude:
+#                id: actions/unpinned-tag
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
