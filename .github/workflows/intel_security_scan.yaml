@@ -7,4 +7,4 @@ on:
 
 jobs:
   Call-Workflow:
-    uses: sfblackl-intel/testing/.github/workflows/intel_scan.yml@main
+    uses: sfblackl-intel/testing/.github/workflows/intel_scan.yaml@main
