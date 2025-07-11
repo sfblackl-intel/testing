@@ -9,7 +9,7 @@ on:
 
 jobs:
   Call-Workflow:
-    uses: sfblackl-intel/testing/.github/workflows/intel_scan.yaml@main
+    uses: intel/.github/.github/workflows/intel_scan.yaml@main
     permissions:
       contents: read
       packages: read
