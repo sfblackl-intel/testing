@@ -9,4 +9,28 @@ updates:
   directory: "/"
   schedule: 
     # Check for updates to GitHub Actions every week
-    interval: "weekly"
+    interval: "monthly"
+- package-ecosystem: "pip"
+  directories:
+  - "/metro-ai-suite/interactive-digital-avatar/requirements.txt"
+  - "/metro-ai-suite/sensor-fusion-for-traffic-management/deployments/how_to_support_yolov6_model/requirements.txt"
+  - "/metro-ai-suite/smart-nvr/requirements.txt"
+  - "/metro-ai-suite/visual-search-question-and-answering/src/requirements.txt"
+  - "/metro-ai-suite/interactive-digital-avatar/requirements.txt"
+  - "/education-ai-suite/smart-classroom/requirements.txt"
+  schedule:
+    interval: "monthly"
+  groups:
+    archived-pypi:
+      patterns:
+        - "*"
+- package-ecosystem: "npm"
+  directories:
+  - "/metro-ai-suite/image-based-video-search/src/app/package-lock.json"
+  - "/•	education-ai-suite/smart-classroom/ui/package-lock.json "
+  schedule:
+    interval: "monthly"
+  groups:
+    archived-npm:
+      patterns:
+        - "*"
